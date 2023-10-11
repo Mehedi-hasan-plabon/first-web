@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    /*background-color: #9c88ff; */
+    /*height: 150px; */
+    width: 80vh;
+   /* transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s; */
+   /* transition: all .5s ease-in-out .2s;  /* ek line likha jai*/
+   
+}
+/*
+div:hover{
+    border-radius: 50%;
+    background-color: #09cde2;*/
+    input{
+        width: 150px;
+        padding:10px ;
+        transition: .5s ease-in;
+
+    background-color: aqua;
+         
+    }
+    input:focus{
+        
+        width: 450px;
+    }

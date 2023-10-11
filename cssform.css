@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-form{
+    background-color: #fff;
+    text-align: center;
+
+}
+.login-text{
+    background-color:#8c7ae6;
+    text-align: center;
+}
+.login-formh{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+    main{
+        display: flex;
+        
+        
+
+    }
+    main > * {
+        flex-basis: 100%;}
+        
+    
+    
+    .fa-brands.fa-facebook {
+        border: 3px solid #EEEEEE;
+        padding: 14px;
+        font-size: 24px;
+        border-radius: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .fa-brands.fa-twitter {
+        border: 3px solid #EEEEEF;
+        padding: 12px;
+        font-size: 24px;
+        border-radius: 50%;}
+
+        .fa-facebook{
+            margin-right: 7px;
+        }
+        .fa-twitter{
+            margin-left: 7px;
+        }
+        input{
+            width: 50%;
+            padding: 10px;
+            background-color: aliceblue;
+            margin-bottom: 15px;
+            border: none;
+            font-size: 1.3rem;
+        }
+        form a{
+            display: inline-block;
+            margin-bottom: 1px;
+            text-decoration: none;
+            font-size: 1.2rem;
+          
+          
+        }
+        input[type="submit"] {
+            background-color: #8c7ae6;
+            width: 32%;
+            border-radius: 30px;
+            color: white;
+            cursor: pointer;
+            
+        }
+    .login-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .pp {
+        font-size: 23px;
+    }
+    .ppp{
+        font-size: 30px;
+    }
+    p.pp {
+        margin-bottom: 9px;
+    }
+       h1{
+        font-size: 50px;
+       } 
+       .mmm{
+        background-color: rgb(201, 191, 178);
+        align-items: center;
+        margin: 70px;
+    
+       }
+       .fbc{
+        color: rgb(51, 6, 6);
+       }
+       .twt{
+        color: black;
+       }
+      .btt:hover{
+        background-color: #100f12;
+        transition: .5s;
+      }

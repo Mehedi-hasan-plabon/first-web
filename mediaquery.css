@@ -1,0 +1,24 @@
+/*@media all and (max-width:500px){  /* condition dilam j wid 500px er besi hoile color change hobe na*/
+    /*h1{
+        color: brown;
+    }
+}*/
+@media(orientation: landscape){  /* landscape e width besi thake*/
+    h1{
+        color: greenyellow;
+    }
+}
+
+
+
+/* phone*/
+@media (min-width: 48em) { ... }
+
+/* tablet*/
+@media (min-width: 62em) { ... }
+
+/* Desktop*/
+@media (min-width: 75em) { ... }
+
+/*  large Desktop
+@media (min-width: 1400px) { ... }*/

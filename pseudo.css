@@ -1,0 +1,68 @@
+a:link{
+    color: brown; /* normal link er color*/
+}
+a:active{ 
+    color: magenta; /* jotokjn mouse diye link click kore rakhbo*/
+}
+a:hover{ 
+    background-color: darkorange;
+color: #fff;}
+    
+a:visited{
+    color: green; /* click kore dile*/
+}
+a{
+    text-decoration: none;
+}
+input:checked{
+    height: 20px;
+    width: 20px;
+    
+}
+input:disabled{
+    background-color: rgb(163, 153, 153);
+}
+p:empty{
+    height: 30px;   /* p shudu faka thakle kaj korbe.ekta letter likhlwo ei design kaj korbe na*/
+    width: 25px;
+    background-color: chocolate
+}
+input:enabled{
+    background-color: rgb(7, 191, 219);
+    color: #fff;
+}
+input#text:focus{
+    background-color: rgb(211, 203, 204);
+    outline: none;
+    border: 2px solid greenyellow;
+}
+li:first-child{
+color: rgb(8, 255, 152);
+}
+/*li:last-child{
+    color: rgb(206, 112, 4);
+    }*/
+    /*p:first-of-type{
+        color: burlywood;
+    }
+    p:last-of-type{
+        color: rgb(222, 3, 237);
+    }*/
+    input[type="number"]{
+        background-color: brown;
+        font-size: 25px;
+    }
+    input[type="number"]:in-range{
+        background-color: rgb(80, 171, 80);
+    }
+
+    p:not(.test){
+        color: cornflowerblue; /* sob p er colir change ei not p bade.*/
+    }
+    li:nth-child(2n+1){
+        color: rgb(138, 6, 150);
+    }
+    p:nth-child(3){
+        color: chartreuse;
+    }
+    
